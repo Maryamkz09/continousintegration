@@ -1,0 +1,15 @@
+$ pytest -v --cov
+collected 2 items
+
+test_calculator.py::TestCalculator::test_addition PASSED [50%]
+
+test_calculator.py::TestCalculator::test_subtraction PASSED [100%]
+
+---------- coverage: platform darwin, python 3.6.6-final-0 -----------
+Name                                              Stmts   Miss  Cover
+---------------------------------------------------------------------
+calculator.py                                         4      0   100%
+test_calculator.py                                    6      0   100%
+/Users/kristijan.ivancic/code/learn/__init__.py       0      0   100%
+---------------------------------------------------------------------
+TOTAL                                                10      0   100%
